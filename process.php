@@ -3,7 +3,7 @@ session_start();
 $username = $_POST['username'];
 $password = $_POST['password'];
 
-if ($username == 'admin' && $password == 'password123') {
+if ($username == 'Shuhuan' && $password == '105520244') {
     $_SESSION['user'] = $username;
     header('Location: welcome.php');
 } else {
